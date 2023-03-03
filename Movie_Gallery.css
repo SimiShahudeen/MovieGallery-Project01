@@ -1,0 +1,141 @@
+body {
+  /* background-color: black; */
+  background-color: #111a54;
+  margin: 0%;
+}
+
+.bar {
+  height: 20px;
+  background-color: #ff4500c7;
+}
+
+.bar-2 {
+  border: .5px #ff4500c7 solid;
+  margin-left: 430px;
+  margin-right: 430px;
+}
+
+.heading {
+  background-color: rgba(255, 255, 255, 0.171);
+  height: 60px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.inner-div {
+  position: relative;
+}
+
+.inner-div-1,
+.inner-div-2,
+.inner-div-3 {
+  /* border: 1px rgba(255, 0, 0, 0.158) solid; */
+  position: absolute;
+  width: 100%;
+}
+
+.inner-div-1 {
+  top: 0%;
+  height: 25px;
+  text-align: center;
+  font-size: larger;
+  color: #ffffffe8;
+  font-family: cursive;
+}
+
+.inner-div-2 {
+  top: 30px;
+  height: 290px;
+  position: relative;
+}
+
+img {
+  margin-left: 8px;
+  height: 300px;
+  width: 92%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner-div-3 {
+  top: 480px;
+  height: 30px;
+  /* border: 1px white solid; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffffe8;
+  text-align: center;
+  padding: 2px;
+  font-size: medium;
+  /* font-style: bold; */
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  color: #ffffffe8;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.box {
+  /* border: 1px #ffffffe8 solid; */
+  height: 530px;
+  width: 250px;
+  position: absolute;
+  border-radius: 2px;
+}
+
+.line {
+  border: 1px white solid;
+}
+
+i {
+  font-size: small;
+  text-align: justify;
+}
+
+.inner-box {
+  border-radius: 4px;
+  border: 4px rgba(128, 128, 128, 0.199) solid;
+  height: 468px;
+  width: 224px;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  background-color: rgba(255, 255, 255, 0.192);
+}
+
+.gallery {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  top: 36px;
+  left: 50px;
+}
+
+/* .inner-box {
+  background-color: rgba(255, 255, 255, 0.664);
+} */
+
+.box-1 {
+  left: 50px;
+}
+
+.box-2 {
+  left: 350px;
+}
+
+.box-3 {
+  left: 650px;
+}
+
+.box-4 {
+  left: 950px;
+}
